@@ -35,7 +35,7 @@ Minha solução para o projeto
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://deividson-hsilva.github.io/huddle-landing-page-challenge/]
 
 
 ### Built with
