@@ -1,9 +1,8 @@
 @media (max-width: 1280px) {
     .container {
         flex-wrap: wrap;
-        width: min-content;
         height: max-content;
-
+        justify-content: center;
     }
 
     main {
@@ -41,7 +40,7 @@
     }
 
     .illustration {
-        max-width: 500px;
+        max-width: inherit;
     }
 
     .illustration img {
@@ -88,7 +87,6 @@
     .header {
         display: inline-block;
         margin: 20px 0px 0px 40px;
-
     }
 
     .text-container {
