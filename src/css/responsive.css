@@ -12,6 +12,17 @@
 
     .text-container {
         padding-left: 0px;
+        text-align: center;
+    }
+
+    .text-container .btn-register {
+        align-self: center;
+        
+    }
+
+    .social {
+        margin-top: 50px;
+        justify-content: center;
     }
 }
 
