@@ -1,4 +1,25 @@
+@media (min-width: 1280px) {
+    .logo {
+        max-width: 1309px;
+        margin: 50px auto 0px;
+    }
+
+    .social {
+        max-width: 1309px;
+        margin: 0 auto;
+    }
+
+    body {
+        padding: 0px 50px;
+    }
+}
+
 @media (max-width: 1280px) {
+    .logo {
+        width: 709px;
+        margin: 50px auto 0px;
+    }
+
     .container {
         flex-wrap: wrap;
         height: max-content;
@@ -10,14 +31,13 @@
         justify-content: center;
     }
 
-    .text-container {
+    .hero-text {
         padding-left: 0px;
         text-align: center;
     }
 
-    .text-container .btn-register {
+    .hero-text .btn-register {
         align-self: center;
-        
     }
 
     .social {
@@ -26,18 +46,26 @@
     }
 }
 
-@media (max-width: 870px) {
-    .text-container {
+@media (max-width: 768px) {
+    .hero-text {
         text-align: center;
         padding: 0px;
-        max-width: 100%;
+        max-width: 80%;
         width: fit-content;
         display: flex;
         justify-content: flex-start;
         margin-top: 50px;
     }
 
-    .text-container .btn-register {
+    .hero-text .title {
+        font-size: 22px;
+    }
+
+    .hero-text .subtitle {
+        font-size: 16px;
+    }
+
+    .hero-text .btn-register {
         align-self: center;
     }
 
@@ -50,61 +78,27 @@
         max-width: 100%;
     }
 
-    .illustration {
-        max-width: inherit;
-    }
-
-    .illustration img {
-        max-width: inherit;
-    }
-}
-
-@media (max-width: 425px) {
-    .container img {
-        width: 325px;
-    }
-
-    body {
-        width: max-content;
-        padding: 0;
-    }
-
-    main {
-        display: block;
-    }
-
-    .container {
-        width: 425px;
-        margin: 0 auto;
-        padding: 0 25px 0px 25px;
-        display: inline-block;
+    .hero {
         text-align: center;
     }
 
-    .text-container {
-        width: 425px;
+    .hero img {
+        width: 80%;
     }
 
-    .text-container .btn-register {
-        display: inline-block;
-        margin: 25px 0px 0px 0px;
-        padding: 0;
+    .logo {
+        width: 80%;
+        margin: 50px auto 0px;
     }
 
-    html {
-        width: max-content;
+    body {
+        padding: 0px 50px;
     }
+}
 
-    .header {
-        display: inline-block;
-        margin: 20px 0px 0px 40px;
-    }
 
-    .text-container {
-        width: fit-content;
-    }
-
-    header {
-        margin: 30px 0px 0px 40px;
+@media (max-width: 425px) {
+    .logo img{
+        width: 50%;
     }
 }

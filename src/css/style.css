@@ -1,27 +1,33 @@
-main {
-    display: flex;
-    height: 600px;
+body {
+    background: var(--primary-violet) url(../image/bg-desktop.svg) no-repeat;
+    height: max-content;
+    background-size: contain;
+    min-height: 100vh;
 }
 
+main {
+    display: flex;
+}
 
 .container {
     display: flex;
+    margin: 0 auto;
 }
 
-.illustration {
+.hero {
     margin-top: 70px;
     align-self: center;
 }
 
-.text-container {
+.hero-text {
     flex-flow: column;
-    justify-content: center;
     height: 100%;
-    padding: 122px 0px 0px 53px;
+    padding: 120px 0px 0px 53px;
     display: flex;
+    max-width: 600px;
 }
 
-.text-container .title {
+.hero-text .title {
     font-size: 40px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
@@ -29,7 +35,7 @@ main {
 
 }
 
-.text-container .subtitle {
+.hero-text .subtitle {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -45,6 +51,7 @@ main {
     border-radius: 25px;
     margin-top: 25px;
     transition: 0.3s;
+    box-shadow: 1px 1px 10px black;
 }
 
 .btn-register a {
@@ -68,7 +75,6 @@ main {
 .btn-register:hover a {
     color: #fff;
     width: 20px;
-    margin-left: 64px;
 }
 
 .social {
@@ -79,8 +85,7 @@ main {
 .social a {
     justify-content: center;
     max-width: fit-content;
-    margin: 0px 8px 0px 9px;
-
+    margin: 0px 8px;
 }
 
 .social i {

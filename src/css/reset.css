@@ -10,13 +10,6 @@ a {
     text-decoration: none;
 }
 
-body {
-    background: var(--primary-violet) url(../image/bg-desktop.svg);
-    height: max-content;
-    padding: 50px 72px;
-    background-size: cover;
-}
-
 ul {
     list-style-type: none;
 }
