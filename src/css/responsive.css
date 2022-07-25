@@ -1,7 +1,7 @@
 @media (min-width: 1280px) {
     .logo {
         max-width: 1309px;
-        margin: 50px auto 0px;
+        margin: 0px auto 0px;
     }
 
     .social {
@@ -10,7 +10,7 @@
     }
 
     body {
-        padding: 0px 50px;
+        padding: 50px 50px 0px;
     }
 }
 

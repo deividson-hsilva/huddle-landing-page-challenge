@@ -3,6 +3,7 @@ body {
     height: max-content;
     background-size: contain;
     min-height: 100vh;
+    padding-top: 50px;
 }
 
 main {
