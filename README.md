@@ -20,7 +20,9 @@ Esses são os designs do desafio, tanto a versao desktop com seus active-states,
 `Desktop`
 <img src="src/design/desktop-design.jpg" alt="desktop design">
 
+
 `Mobile`
+
 <img src="src/design/mobile-design.jpg" alt="mobile design">
 
 `Active-States`
