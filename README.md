@@ -30,7 +30,7 @@ Esses são os designs do desafio, tanto a versao desktop com seus active-states,
 
 Minha solução para o projeto
 
-![](./src/design/my-resolution.jpg)
+![](./src/design/my-resolution.png)
 
 
 ### Links
