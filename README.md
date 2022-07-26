@@ -18,6 +18,7 @@
 Esses são os designs do desafio, tanto a versao desktop com seus active-states, como a versao mobile.
 
 `Desktop`
+
 <img src="src/design/desktop-design.jpg" alt="desktop design">
 
 
@@ -25,7 +26,9 @@ Esses são os designs do desafio, tanto a versao desktop com seus active-states,
 
 <img src="src/design/mobile-design.jpg" alt="mobile design">
 
+
 `Active-States`
+
 <img src="src/design/active-states.jpg" alt="active states">
 
 ### Screenshot
